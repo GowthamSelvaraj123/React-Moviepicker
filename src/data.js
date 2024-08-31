@@ -1,6 +1,6 @@
 import theGodFather from './assets/the-god-father.jpg';
-import desertDunes from './assets/desert-dunes.jpg';
-import majesticMountains from './assets/majestic-mountains.jpg';
+import killBill from './assets/kill-bill.jpg';
+import shawshankRedemption from './assets/shawshank-redemption.jpg';
 import caribbeanBeachImg from './assets/caribbean-beach.jpg';
 import ruinsImg from './assets/ruins.jpg';
 import rainforestImg from './assets/rainforest.jpg';
@@ -30,20 +30,20 @@ export const AVAILABLE_PLACES = [
   },
   {
     id: 'm2',
-    title: 'Sahara Desert Dunes',
+    title: 'Kill Bill',
     image: {
-      src: desertDunes,
-      alt: 'Golden dunes stretching to the horizon in the Sahara Desert.',
+      src: killBill,
+      alt: 'Kill Bill',
     },
     lat: 25.0,
     lon: 0.0,
   },
   {
     id: 'm3',
-    title: 'Himalayan Peaks',
+    title: 'Shawshank Redemption',
     image: {
-      src: majesticMountains,
-      alt: 'The sun setting behind snow-capped peaks of majestic mountains.',
+      src: shawshankRedemption,
+      alt: 'Shawshank Redemption',
     },
     lat: 27.9881,
     lon: 86.925,

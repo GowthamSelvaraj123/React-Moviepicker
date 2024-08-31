@@ -1,6 +1,7 @@
-import { useEffect } from "react";
+import { Profiler, useEffect, useState } from "react";
 
 export default function DeleteConfirmation({ onConfirm, onCancel }) {
+const [remainingTime, setRemainingTime] = useState(3000);
 useEffect(() => {
   const timer = setTimeout(() => {
     onConfirm();
