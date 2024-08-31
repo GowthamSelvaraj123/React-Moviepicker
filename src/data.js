@@ -1,10 +1,10 @@
 import theGodFather from './assets/the-god-father.jpg';
 import killBill from './assets/kill-bill.jpg';
 import shawshankRedemption from './assets/shawshank-redemption.jpg';
-import caribbeanBeachImg from './assets/caribbean-beach.jpg';
-import ruinsImg from './assets/ruins.jpg';
-import rainforestImg from './assets/rainforest.jpg';
-import northernLightsImg from './assets/northern-lights.jpg';
+import piratesOfTheCaribbean from './assets/pirates-of-the-caribbean.jpg';
+import catchMeIfYouCan from './assets/catch-me-if-you-can.jpg';
+import beautifulMind from './assets/beautiful-mind.jpg';
+import titanic from './assets/titanic.jpg';
 import japaneseTempleImg from './assets/japanese-temple.jpg';
 import greatBarrierReefImg from './assets/great-barrier-reef.jpg';
 import parisianStreetsImg from './assets/parisian-streets.jpg';
@@ -50,40 +50,40 @@ export const AVAILABLE_PLACES = [
   },
   {
     id: 'm4',
-    title: 'Caribbean Beach',
+    title: 'Pirates of the Caribbean',
     image: {
-      src: caribbeanBeachImg,
-      alt: 'Pristine white sand and turquoise waters of a Caribbean beach.',
+      src: piratesOfTheCaribbean,
+      alt: 'Pirates of the Caribbean',
     },
     lat: 18.2208,
     lon: -66.5901,
   },
   {
     id: 'm5',
-    title: 'Ancient Grecian Ruins',
+    title: 'Catch Me If You Can',
     image: {
-      src: ruinsImg,
-      alt: 'Historic ruins standing tall against the backdrop of the Grecian sky.',
+      src: catchMeIfYouCan,
+      alt: 'Catch Me If You Can.',
     },
     lat: 37.9715,
     lon: 23.7257,
   },
   {
     id: 'm6',
-    title: 'Amazon Rainforest Canopy',
+    title: 'A Beautiful Mind',
     image: {
-      src: rainforestImg,
-      alt: 'Lush canopy of a rainforest, teeming with life.',
+      src: beautifulMind,
+      alt: 'A Beautiful Mind',
     },
     lat: -3.4653,
     lon: -62.2159,
   },
   {
     id: 'm7',
-    title: 'Northern Lights',
+    title: 'Titanic',
     image: {
-      src: northernLightsImg,
-      alt: 'Dazzling display of the Northern Lights in a starry sky.',
+      src: titanic,
+      alt: 'Titanic',
     },
     lat: 64.9631,
     lon: -19.0208,

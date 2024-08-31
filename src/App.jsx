@@ -70,8 +70,7 @@ function App() {
         <img src={logoImg} alt="Stylized globe" />
         <h1>MoviePicker</h1>
         <p>
-          Create your personal collection of places you would like to visit or
-          you have visited.
+        Create your personal collection of movies you would like to watch or have already watched.
         </p>
       </header>
       <main>
@@ -82,7 +81,7 @@ function App() {
           onSelectMovie={handleStartRemovePlace}
         />
         <Movies
-          title="Available Movies"
+          title="My Movie Picks"
           movies={AVAILABLE_PLACES}
           fallbackText="Sorting places by distance..."
           onSelectMovie={handleSelectPlace}
